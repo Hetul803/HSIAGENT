@@ -1,0 +1,8 @@
+[
+  {"name":"Thin cirrus fast-look","mission_goal":"Quickly detect thin cirrus over flight corridors for tactical weather awareness.","targets":["cloud"],"platform_type":"satellite","max_bands":5,"photon_flux_condition":"medium","priority":"accuracy"},
+  {"name":"Runway standing-water check","mission_goal":"Identify standing water near runways after heavy rain.","targets":["water"],"platform_type":"runway-side","max_bands":4,"photon_flux_condition":"medium","priority":"robustness"},
+  {"name":"4-band compact moisture brief","mission_goal":"Design a compact 4-band moisture-focused aviation sensing plan under low photon flux.","targets":["moisture"],"platform_type":"airborne","max_bands":4,"photon_flux_condition":"low","priority":"compactness"},
+  {"name":"Cloud + water aviation sweep","mission_goal":"Create a joint cloud and runway-water monitoring band plan for aviation safety.","targets":["cloud","water"],"platform_type":"airborne","max_bands":6,"photon_flux_condition":"medium","priority":"robustness"},
+  {"name":"Water + vegetation edge monitoring","mission_goal":"Monitor water pooling and vegetation edge stress near airport perimeter.","targets":["water","vegetation"],"platform_type":"drone","max_bands":6,"photon_flux_condition":"high","priority":"interpretability"},
+  {"name":"Cloud + water + moisture constrained mission","mission_goal":"Plan a constrained mission that covers cloud, water, and moisture with only 4 bands and low photon flux.","targets":["cloud","water","moisture"],"platform_type":"airborne","max_bands":4,"photon_flux_condition":"low","priority":"accuracy"}
+]

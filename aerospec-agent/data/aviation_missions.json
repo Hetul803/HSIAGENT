@@ -1,0 +1,8 @@
+[
+  {"name":"Thin cirrus fast-look","goal":"Quickly detect thin cirrus over flight corridors for tactical weather awareness.","targets":["cloud"],"platform_type":"satellite"},
+  {"name":"Runway standing-water check","goal":"Identify standing water near runways after heavy rain.","targets":["water"],"platform_type":"runway-side"},
+  {"name":"4-band compact moisture brief","goal":"Design a compact 4-band moisture-focused aviation sensing plan under low photon flux.","targets":["moisture"],"platform_type":"airborne"},
+  {"name":"Cloud + water aviation sweep","goal":"Create a joint cloud and runway-water monitoring band plan for aviation safety.","targets":["cloud","water"],"platform_type":"airborne"},
+  {"name":"Water + vegetation edge monitoring","goal":"Monitor water pooling and vegetation edge stress near airport perimeter.","targets":["water","vegetation"],"platform_type":"drone"},
+  {"name":"Cloud + water + moisture constrained mission","goal":"Plan a constrained mission that covers cloud, water, and moisture with limited bands.","targets":["cloud","water","moisture"],"platform_type":"airborne"}
+]

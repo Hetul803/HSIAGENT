@@ -1,0 +1,7 @@
+{
+  "scene_type": "airport_corridor",
+  "solar_zenith_deg": 33.2,
+  "atmospheric_state": "humid",
+  "surface_mix": ["asphalt", "vegetation", "water_puddles"],
+  "note": "Demo metadata for photon flux context and caveat generation."
+}

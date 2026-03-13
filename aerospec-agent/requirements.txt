@@ -1,0 +1,9 @@
+gradio>=4.44.0
+langgraph>=0.2.34
+groq>=0.12.0
+pydantic>=2.8.2
+python-dotenv>=1.0.1
+pandas>=2.2.2
+numpy>=1.26.4
+plotly>=5.24.1
+pytest>=8.3.3

@@ -1,0 +1,42 @@
+[
+  {
+    "mission_goal": "Quickly detect thin cirrus over busy flight corridors for tactical weather awareness.",
+    "target_type": "cloud",
+    "platform_type": "satellite",
+    "max_bands": 5,
+    "photon_flux_condition": "medium",
+    "priority": "accuracy"
+  },
+  {
+    "mission_goal": "Find standing water near runways after heavy rain with robust contrast bands.",
+    "target_type": "water",
+    "platform_type": "runway-side",
+    "max_bands": 4,
+    "photon_flux_condition": "medium",
+    "priority": "robustness"
+  },
+  {
+    "mission_goal": "I only have 4 bands and low photon flux; design a compact moisture mission for aviation weather support.",
+    "target_type": "moisture",
+    "platform_type": "airborne",
+    "max_bands": 4,
+    "photon_flux_condition": "low",
+    "priority": "compactness"
+  },
+  {
+    "mission_goal": "Use a drone to monitor vegetation stress around airport perimeter zones and keep results interpretable.",
+    "target_type": "vegetation",
+    "platform_type": "drone",
+    "max_bands": 5,
+    "photon_flux_condition": "high",
+    "priority": "interpretability"
+  },
+  {
+    "mission_goal": "Give me a compact robust spectral plan for mixed runway hazards under variable illumination.",
+    "target_type": "custom",
+    "platform_type": "airborne",
+    "max_bands": 4,
+    "photon_flux_condition": "medium",
+    "priority": "robustness"
+  }
+]

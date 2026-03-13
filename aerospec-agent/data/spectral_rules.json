@@ -1,0 +1,80 @@
+[
+  {
+    "id": "cirrus_1380",
+    "target": "cloud",
+    "keywords": ["cirrus", "thin cirrus", "high cloud", "ice cloud"],
+    "wavelength_min_nm": 1360,
+    "wavelength_max_nm": 1400,
+    "rationale": "Strong water vapor absorption helps isolate high thin cirrus signal contrast in specific contexts.",
+    "confidence": 0.82,
+    "caution": "Atmospheric correction sensitivity is high; validate with radiative transfer assumptions.",
+    "reference": "SeedDemo-Atmos-01",
+    "interpretability": 0.72,
+    "robustness": 0.66
+  },
+  {
+    "id": "water_nir_860",
+    "target": "water",
+    "keywords": ["standing water", "runway flooding", "water"],
+    "wavelength_min_nm": 840,
+    "wavelength_max_nm": 880,
+    "rationale": "Water is typically dark in NIR, improving separation from soil and vegetation.",
+    "confidence": 0.87,
+    "caution": "Shadow and asphalt confusion can remain without visible references.",
+    "reference": "SeedDemo-Hydro-02",
+    "interpretability": 0.84,
+    "robustness": 0.8
+  },
+  {
+    "id": "moisture_swir_1610",
+    "target": "moisture",
+    "keywords": ["moisture", "humidity", "wetness"],
+    "wavelength_min_nm": 1550,
+    "wavelength_max_nm": 1650,
+    "rationale": "SWIR region is sensitive to liquid water absorption features in many surfaces.",
+    "confidence": 0.8,
+    "caution": "Low photon conditions can reduce SNR in SWIR.",
+    "reference": "SeedDemo-Moist-03",
+    "interpretability": 0.75,
+    "robustness": 0.76
+  },
+  {
+    "id": "veg_rededge_720",
+    "target": "vegetation",
+    "keywords": ["vegetation", "stress", "crop", "plant"],
+    "wavelength_min_nm": 705,
+    "wavelength_max_nm": 740,
+    "rationale": "Red-edge transitions are useful for vegetation condition and stress proxies.",
+    "confidence": 0.83,
+    "caution": "Can saturate for dense canopy without additional NIR/SWIR bands.",
+    "reference": "SeedDemo-Veg-04",
+    "interpretability": 0.85,
+    "robustness": 0.79
+  },
+  {
+    "id": "visible_ref_green",
+    "target": "custom",
+    "keywords": ["reference", "visual", "baseline"],
+    "wavelength_min_nm": 540,
+    "wavelength_max_nm": 570,
+    "rationale": "Visible green reference can support interpretability and visual cross-check.",
+    "confidence": 0.7,
+    "caution": "May not be highly discriminative alone.",
+    "reference": "SeedDemo-Ref-05",
+    "interpretability": 0.92,
+    "robustness": 0.7
+  },
+  {
+    "id": "nir_ref_940",
+    "target": "custom",
+    "keywords": ["reference", "nir", "atmosphere"],
+    "wavelength_min_nm": 920,
+    "wavelength_max_nm": 960,
+    "rationale": "NIR reference supports atmospheric and material contrast framing in compact plans.",
+    "confidence": 0.76,
+    "caution": "Band placement must consider sensor spectral response width.",
+    "reference": "SeedDemo-Ref-06",
+    "interpretability": 0.78,
+    "robustness": 0.77
+  }
+]

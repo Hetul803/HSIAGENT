@@ -1,0 +1,9 @@
+[
+  {"label": "Blue", "nm": 480},
+  {"label": "Green", "nm": 550},
+  {"label": "Red", "nm": 660},
+  {"label": "Red Edge", "nm": 720},
+  {"label": "NIR", "nm": 860},
+  {"label": "Water Vapor", "nm": 1380},
+  {"label": "SWIR", "nm": 1610}
+]
